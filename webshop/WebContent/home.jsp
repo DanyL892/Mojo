@@ -14,7 +14,7 @@
   <link href="style_home.css" rel="stylesheet">
   
 </head>
-<body>
+<body> 
 <%
 	//DBConnector connector = new DBConnector();
 	//Connection c = connector.connect();
