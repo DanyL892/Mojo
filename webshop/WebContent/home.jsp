@@ -13,7 +13,7 @@
   <meta charset="utf-8">
   <link href="style_home.css" rel="stylesheet">
   
-</head>
+</head> 
 <body> 
 <%
 	//DBConnector connector = new DBConnector();
