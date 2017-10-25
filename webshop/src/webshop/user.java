@@ -13,7 +13,7 @@ public class user {
 		this.password = password;
 	}
 	
-	//set and get methods
+	//set and get methods meow
 	public void setName(String name) {
 		this.name = name;
 	}
