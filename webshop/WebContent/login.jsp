@@ -7,6 +7,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<<<<<<< HEAD
   <title>Bucks Money</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,5 +32,20 @@
 	<h2>Es gab einen Fehler beim Log In.</h2>
 	<%} %>
 	</div>
+=======
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+
+	Benutzer user = new Benutzer();
+
+	String username  = request.getParameter("username");
+	String pass      = request.getParameter("password");
+%>
+<h2><%= user.login(username, pass) %></h2>
+	
+>>>>>>> branch 'master' of https://github.com/DanyL892/Mojo.git
 </body>
 </html>

@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@page import="webshop.DBConnector" %>
+<<<<<<< HEAD
 <%@page import="java.sql.*"%>
 <%@page import="com.mysql.jdbc.PreparedStatement"%>
 <%@page import="com.mysql.jdbc.Connection"%>
@@ -26,6 +27,33 @@
    		 <input type="text" name="email"  value="Email" onclick="this.value=''"/><br/>  
    		 <input type="password" name="password"  value="Password" onclick="this.value=''"/><br/>  
    		 <input type="submit" class="button" value="Registrieren"/>  
+=======
+
+<%@page import="java.sql.*"%>
+<%@page import="com.mysql.jdbc.PreparedStatement"%>
+<%@page import="com.mysql.jdbc.Connection"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <title>Bucks Money</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link href="style_home.css" rel="stylesheet">
+  
+</head>
+<body>
+
+  <div class="header">
+      <h1>Account erstellen</h1>
+      <form method="post" action="insert.jsp">
+   		 <input type="text" name="username" value="Name" onclick="this.value=''"/><br/>  
+   		 <input type="text" name="email"  value="Email" onclick="this.value=''"/><br/>  
+   		 <input type="password" name="password"  value="Password" onclick="this.value=''"/><br/>  
+   		 <input type="submit" class="button" value="register"/>  
+>>>>>>> branch 'master' of https://github.com/DanyL892/Mojo.git
      </form>  
   </div>
 
