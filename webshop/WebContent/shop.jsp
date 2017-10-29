@@ -13,17 +13,10 @@
 <body>
 
   <div class="header">
-<<<<<<< HEAD
   <%@include file="menu_part.jsp" %>
       <h1>Unser Shop</h1>
       <hr/>
       <a href="#content"><button class="button">Jetzt einkaufen</button></a>
-=======
-      <h1>Unser Shop</h1>
-      <hr/>
-      <a href="home.jsp"><h2>Bucks Money</h2></a>
-      <a href="#content"><button class="button">MORE</button></a>
->>>>>>> branch 'master' of https://github.com/DanyL892/Mojo.git
   </div>
   <div class="col-md-12">
     <h1>Lorem ipsum dolor</h1>

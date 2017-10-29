@@ -15,7 +15,6 @@
   
 </head> 
 <body> 
-<<<<<<< HEAD
 
   <div class="header">
     <%@include file="menu_part.jsp"%>
@@ -44,44 +43,6 @@
       <h1>Unsere patentierte Wasch- und Bügeltechnik (refurbished bucks)</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <a href="shop.jsp"><button class="button-shop">ZUM SHOP</button></a>
-=======
-<%
-	//DBConnector connector = new DBConnector();
-	//Connection c = connector.connect();
-	//out.print(c);
-%>
-  <div class="header">
-  	  <form method="post" action="login.jsp" id="login">
-  	  	<p>Login</p>
-  	  	<input type="text" name="username" value="Username" onclick="this.value=''"><br/>
-  	  	<input type="password" name="password" value="Passwort" onclick="this.value''"><br/>
-  	  	<button type="submit" value="Einloggen" class="button button-small">Einloggen</button>
-  	  </form>
-      <h1 class="clear">Bucks Money</h1>
-      <hr/>
-      <h2>Get more Bucks for your Money</h2>
-      <a href="#content"><button class="button">MORE</button></a>
-      <a href="register.jsp"><button class="button">REGISTER</button></a>
-  </div>
-  <div class="content" id="content">
-    <div class="col-md-12">
-      <h1>Unsere patentierte Wasch- und Bügeltechnik (refurbished bucks)</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <div class="col-md-4">
-      <h1>Lorem</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <div class="col-md-4">
-      <h1>Lorem</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <a href="shop.jsp"><button class="button-shop">ZUM SHOP</button></a>
-    </div>
-    <div class="col-md-4">
-      <h1>Lorem</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
->>>>>>> branch 'master' of https://github.com/DanyL892/Mojo.git
-    </div>
   </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
